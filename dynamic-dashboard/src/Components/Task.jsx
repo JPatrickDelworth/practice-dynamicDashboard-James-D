@@ -1,7 +1,7 @@
 const Task =({ taskName, isComplete }) => {
   
     return (
-       <ul>{isComplete ? "✅" : "❌"} {taskName}</ul>
+       <ul style={{color: isComplete ? "green": "black"}}>{isComplete ? "✅" : "❌"} {taskName}</ul>
     )  
 }
 
